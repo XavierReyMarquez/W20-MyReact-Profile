@@ -4,18 +4,40 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <h2>
+        Download my full resume{" "}
+        <a href={"/src/assets/resume.pdf"} download="resume">
+          Download Resume
+        </a>
+        .
+      </h2>
+      <h3>Front-End Proficiencies</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>JQuery</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+      </ul>
+      <h3>Back-End Proficiencies</h3>
+      <ul>
+        <li>MySQL, Sequelize</li>
+        <li>API's</li>
+        <li>MongoDB</li>
+        <li>Node.js</li>
+        <li>Handlebars.js</li>
+        <li>Express.js</li>
+      </ul>
+      <h3>Skills</h3>
+      <ul>
+        <li>VS Code</li>
+        <li>Windows</li>
+        <li>A+ Certification</li>
+        <li>Conversational Spanish Fluency</li>
+        <li>Advance Computer Skills</li>
+        <li>Advance Tech Skills</li>
+      </ul>
     </div>
   );
 }

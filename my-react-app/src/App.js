@@ -1,6 +1,7 @@
 // import logo from "./logo.svg";
 import React from "react";
-import PortfolioContainer from "./Components/Header";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 // import "./App.css";
 
 // function App() {
@@ -26,6 +27,10 @@ import PortfolioContainer from "./Components/Header";
 
 // export default App;
 
-const App = () => <PortfolioContainer />;
-
+const App = () => (
+  <div>
+    <Header />;
+    <Footer />
+  </div>
+);
 export default App;
