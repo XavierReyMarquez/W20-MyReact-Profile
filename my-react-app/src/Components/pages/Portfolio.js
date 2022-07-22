@@ -1,5 +1,10 @@
 import React from "react";
-
+import imgCookie from "../../assets/images/fortuneCardCookies.PNG";
+import imgExpress from "../../assets/images/Notetaker.PNG";
+const imgobj = {
+  imgCookie,
+  imgExpress,
+};
 function Portfolio(props) {
   console.log(props);
   return (
@@ -14,12 +19,17 @@ function Portfolio(props) {
           >
             {props &&
               props.projects.map(function (projects) {
-                const projectImage = "images/portfolio/" + projects.image;
+                // const projectImage =
+                //   require("../../assets/images/fortuneCardCookies" +
+                //     projects.image).default;
                 return (
                   <div key={projects.title} className="columns portfolio-item">
                     <div className="item-wrap">
                       <a href={projects.url} title={projects.title}>
-                        <img alt={projects.title} src={projectImage} />
+                        <img
+                          alt={projects.title}
+                          src={imgobj[projects.image]}
+                        />
                         <div className="overlay">
                           <div className="portfolio-item-meta">
                             <h5>{projects.title}</h5>
