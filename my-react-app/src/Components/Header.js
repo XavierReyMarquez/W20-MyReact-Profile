@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Home from "./pages/Home";
 import resumeData from "../assets/resumeData.json";
+
 function NavTabs({ currentPage, handlePageChange }) {
   console.log(resumeData);
   return (

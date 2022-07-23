@@ -1,9 +1,18 @@
 import React from "react";
 import imgCookie from "../../assets/images/fortuneCardCookies.PNG";
 import imgExpress from "../../assets/images/Notetaker.PNG";
+import imgCommerce from "../../assets/images/ECommerce.gif";
+import imgRead from "../../assets/images/ReadMe.png";
+import imgTracker from "../../assets/images/Tracker.png";
+import imgTeam from "../../assets/images/Team.png";
+
 const imgobj = {
   imgCookie,
   imgExpress,
+  imgCommerce,
+  imgRead,
+  imgTracker,
+  imgTeam,
 };
 function Portfolio(props) {
   console.log(props);
