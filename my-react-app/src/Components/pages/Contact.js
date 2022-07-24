@@ -2,6 +2,37 @@ import React, { useState } from "react";
 
 import { validateEmail } from "../../utils/helpers";
 
+const styles = {
+  divStyle: {
+    display: "flex",
+    flexDirection: "column",
+    fontSize: "25px",
+    width: "100%",
+    textAlign: " center",
+    flexWrap: "wrap",
+  },
+
+  formStyle: {
+    width: "100%",
+    padding: "5px",
+    margin: "10px",
+  },
+
+  messageStyle: {
+    width: "100%",
+    height: "100px",
+    padding: "5px",
+    margin: "10px",
+  },
+
+  boxStyle: {
+    width: "100%",
+    height: "25px",
+    padding: "5px",
+    margin: "10px",
+  },
+};
+
 export default function Contact() {
   const [email, setEmail] = useState("");
   const [userName, setUserName] = useState("");
@@ -44,10 +75,11 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div style={styles.divStyle}>
       <p>Hello {userName} please leave a message</p>
       <form className="form">
         <input
+          style={styles.boxStyle}
           value={userName}
           name="userName"
           onChange={handleInputChange}
@@ -55,6 +87,7 @@ export default function Contact() {
           placeholder="name"
         />
         <input
+          style={styles.boxStyle}
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -62,6 +95,7 @@ export default function Contact() {
           placeholder="email"
         />
         <input
+          style={styles.messageStyle}
           value={message}
           name="message"
           onChange={handleInputChange}

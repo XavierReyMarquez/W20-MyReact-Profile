@@ -3,19 +3,18 @@ import React from "react";
 // import Header from "../Header";
 
 const styles = {
-  Header: {
-    background: "blue",
+  divStyle: {
     display: "flex",
     flexDirection: "column",
+    fontSize: "25px",
   },
 
-  h1: {
+  h1Style: {
     textAlign: " center",
     color: "black",
-    background: "blue",
   },
 
-  div: {
+  pStyle: {
     textAlign: " center",
     color: "black",
   },
@@ -23,9 +22,9 @@ const styles = {
 
 export default function Home() {
   return (
-    <div style={styles.Header}>
-      <h1 style={styles.h1}>Home Page</h1>
-      <p style={styles.div}>
+    <div style={styles.divStyle}>
+      <h1 style={styles.h1Style}>Home Page</h1>
+      <p style={styles.pStyle}>
         Thank you for visiting my react website look around and leave me a
         message.
       </p>

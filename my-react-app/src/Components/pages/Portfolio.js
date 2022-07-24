@@ -14,15 +14,43 @@ const imgobj = {
   imgTracker,
   imgTeam,
 };
+
+const styles = {
+  imgStyle: {
+    display: "block",
+    marginLeft: "auto",
+    marginRight: "auto",
+    width: "50%",
+  },
+
+  portfolioStlye: {
+    display: "flex",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    textAlign: "center",
+  },
+
+  divStyle: {
+    fontSize: "25px",
+    width: "50%",
+    textAlign: "center",
+  },
+
+  h1style: {
+    textAlign: "center",
+  },
+};
+
 function Portfolio(props) {
   console.log(props);
   return (
     <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
+          <h1 style={styles.h1style}>Check Out Some of My Works.</h1>
 
           <div
+            style={styles.portfolioStlye}
             id="portfolio-wrapper"
             className="bgrid-quarters s-bgrid-thirds cf"
           >
@@ -32,10 +60,15 @@ function Portfolio(props) {
                 //   require("../../assets/images/fortuneCardCookies" +
                 //     projects.image).default;
                 return (
-                  <div key={projects.title} className="columns portfolio-item">
+                  <div
+                    style={styles.divStyle}
+                    key={projects.title}
+                    className="columns portfolio-item"
+                  >
                     <div className="item-wrap">
                       <a href={projects.url} title={projects.title}>
                         <img
+                          style={styles.imgStyle}
                           alt={projects.title}
                           src={imgobj[projects.image]}
                         />

@@ -1,9 +1,17 @@
 import React from "react";
 import resume from "../../assets/resume.pdf";
 
+const styles = {
+  divStyle: {
+    display: "flex",
+    flexDirection: "column",
+    fontSize: "20px",
+  },
+};
+
 export default function Resume() {
   return (
-    <div>
+    <div style={styles.divStyle}>
       <h1>Resume</h1>
       <h2>
         Download my full resume{" "}
