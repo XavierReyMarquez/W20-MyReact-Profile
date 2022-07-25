@@ -1,0 +1,47 @@
+.Project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #01baef;
+  background: rgba(0, 0, 0, 0.6);
+  font-family: "QuickSand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.25s;
+}
+
+.Project-overlay:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #0cbaba;
+}
+
+.Project-overlay:visited {
+  text-decoration: none;
+  color: #0cbaba;
+}
+
+.Project-overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.Project-overlay:hover > * {
+  transform: translateY(0);
+  text-decoration: none;
+  color: #0cbaba;
+}
+
+.Project-overlay:visited > * {
+  text-decoration: none;
+  color: #0cbaba;
+}
+
+.Project-overlay-blur {
+  backdrop-filter: blur(5px);
+}

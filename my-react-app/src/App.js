@@ -2,7 +2,7 @@
 import React from "react";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-// import "./App.css";
+import "./App.css";
 
 // function App() {
 //   return (
@@ -28,9 +28,9 @@ import Footer from "./Components/Footer";
 // export default App;
 
 const App = () => (
-  <div>
-    <Header />;
-    <Footer />
+  <div className="App">
+    <Header className="App" />;
+    <Footer className="App" />
   </div>
 );
 export default App;

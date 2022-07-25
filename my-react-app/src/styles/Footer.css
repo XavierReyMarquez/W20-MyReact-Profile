@@ -1,14 +1,14 @@
-.nav-link {
+.social {
   text-decoration: none;
   color: #01baef;
 }
 
-.nav-link:hover {
+.social:hover {
   text-decoration: none;
   color: #0cbaba;
 }
 
-.nav-link:visited {
+.social:visited {
   text-decoration: none;
   color: #0cbaba;
 }

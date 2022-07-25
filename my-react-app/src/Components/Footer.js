@@ -7,6 +7,7 @@ import {
   faInstagram,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import "../styles/Footer.css";
 
 library.add(fab, faLinkedin, faInstagram, faGithub);
 
@@ -16,6 +17,10 @@ const styles = {
     listStyle: "none",
     display: "flex",
     justifyContent: "space-evenly",
+    background: "",
+    position: "relative",
+    bottom: 0,
+    width: "100%",
   },
 
   icons: {
@@ -28,17 +33,23 @@ const Footer = () => {
     <div>
       <ul style={styles.footer} className="social">
         <li style={styles.icons} key="linkedin">
-          <a href="https://www.linkedin.com/in/xavier-marquez-242146230/">
+          <a
+            className="social"
+            href="https://www.linkedin.com/in/xavier-marquez-242146230/"
+          >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
         <li style={styles.icons} key="instagram">
-          <a href="https://www.instagram.com/xavierrmarquez/">
+          <a
+            className="social"
+            href="https://www.instagram.com/xavierrmarquez/"
+          >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </li>
         <li style={styles.icons} key="github">
-          <a href="https://www.github.com/XavierReyMarquez">
+          <a className="social" href="https://www.github.com/XavierReyMarquez">
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </li>

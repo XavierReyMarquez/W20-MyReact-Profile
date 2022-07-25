@@ -4,32 +4,38 @@ import { validateEmail } from "../../utils/helpers";
 
 const styles = {
   divStyle: {
-    display: "flex",
-    flexDirection: "column",
-    fontSize: "25px",
-    width: "100%",
-    textAlign: " center",
-    flexWrap: "wrap",
+    display: "block",
+    fontSize: "30px",
+    textAlign: "center",
+    color: "white",
   },
 
   formStyle: {
-    width: "100%",
-    padding: "5px",
-    margin: "10px",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: "12px 20px",
+    margin: "8px 0",
+    boxSizing: "border-box",
+    resize: "none",
   },
 
   messageStyle: {
-    width: "100%",
-    height: "100px",
-    padding: "5px",
-    margin: "10px",
+    height: "150px",
+    resize: "none",
+    alignContent: "flex-start",
+    width: "75%",
   },
 
   boxStyle: {
-    width: "100%",
-    height: "25px",
-    padding: "5px",
-    margin: "10px",
+    height: "50px",
+    width: "75%",
+  },
+
+  buttonStyle: {
+    height: "50px",
+    width: "25%",
   },
 };
 
@@ -77,7 +83,7 @@ export default function Contact() {
   return (
     <div style={styles.divStyle}>
       <p>Hello {userName} please leave a message</p>
-      <form className="form">
+      <form className="form" style={styles.formStyle}>
         <input
           style={styles.boxStyle}
           value={userName}
@@ -102,7 +108,11 @@ export default function Contact() {
           type="message"
           placeholder="message"
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <button
+          style={styles.buttonStyle}
+          type="button"
+          onClick={handleFormSubmit}
+        >
           Submit
         </button>
       </form>

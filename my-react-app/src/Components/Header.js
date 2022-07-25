@@ -5,11 +5,10 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Home from "./pages/Home";
 import resumeData from "../assets/resumeData.json";
+import "../styles/Header.css";
 
 const styles = {
   NavStyle: {
-    color: "black",
-    textDecoration: "none",
     listStyle: "none",
     display: "flex",
     flexWrap: "wrap",
@@ -21,8 +20,8 @@ const styles = {
 function NavTabs({ currentPage, handlePageChange }) {
   console.log(resumeData);
   return (
-    <div>
-      <ul style={styles.NavStyle} className="nav nav-tabs">
+    <div style={styles.divStyle}>
+      <ul style={styles.NavStyle} className="nav-tabs">
         <li className="nav-item">
           <a
             href="#home"

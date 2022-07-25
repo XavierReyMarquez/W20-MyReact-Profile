@@ -6,6 +6,7 @@ const styles = {
     flexDirection: "column",
     fontSize: "25px",
     textAlign: " center",
+    color: "white",
   },
 };
 

@@ -6,6 +6,8 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     fontSize: "20px",
+    color: "white",
+    alignItems: "start",
   },
 };
 

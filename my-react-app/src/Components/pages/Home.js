@@ -1,5 +1,5 @@
 import React from "react";
-// import "../../styles/Header.css";
+import "../../styles/Header.css";
 // import Header from "../Header";
 
 const styles = {
@@ -7,16 +7,16 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     fontSize: "25px",
+    background: "",
+    color: "white",
   },
 
   h1Style: {
     textAlign: " center",
-    color: "black",
   },
 
   pStyle: {
     textAlign: " center",
-    color: "black",
   },
 };
 
