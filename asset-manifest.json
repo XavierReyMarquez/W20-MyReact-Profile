@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3646317.css",
+    "main.js": "/static/js/main.db61a5e3.js",
+    "static/js/787.bc7d429a.chunk.js": "/static/js/787.bc7d429a.chunk.js",
+    "static/media/fortuneCardCookies.PNG": "/static/media/fortuneCardCookies.8b697db3bd4e83f6cfe5.PNG",
+    "static/media/Notetaker.PNG": "/static/media/Notetaker.e55bf076a2a71149521a.PNG",
+    "static/media/ECommerce.gif": "/static/media/ECommerce.3893469de5609dfa07c5.gif",
+    "static/media/Tracker.png": "/static/media/Tracker.2926472cf3521c677bfc.png",
+    "static/media/Team.png": "/static/media/Team.0c00af8170c1a7a65365.png",
+    "static/media/resume.pdf": "/static/media/resume.7cf399abb09d4b8ad2ae.pdf",
+    "static/media/ReadMe.png": "/static/media/ReadMe.84068d2b380e677eca8d.png",
+    "index.html": "/index.html",
+    "main.d3646317.css.map": "/static/css/main.d3646317.css.map",
+    "main.db61a5e3.js.map": "/static/js/main.db61a5e3.js.map",
+    "787.bc7d429a.chunk.js.map": "/static/js/787.bc7d429a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3646317.css",
+    "static/js/main.db61a5e3.js"
+  ]
+}
