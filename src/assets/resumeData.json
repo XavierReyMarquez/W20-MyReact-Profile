@@ -1,0 +1,48 @@
+{
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Fortune-Cookie-Teller",
+        "category": "(ExpressJS, NodeJS)",
+        "image": "imgCookie",
+        "url": "https://aqueous-reef-12523.herokuapp.com/",
+        "gitURL": "https://github.com/XavierReyMarquez/Fortune-Cookie-Teller"
+      },
+      {
+        "title": "Express Note Taker",
+        "category": "ExpressJS, NodeJS",
+        "image": "imgExpress",
+        "url": " https://fathomless-chamber-39406.herokuapp.com/",
+        "gitURL": "https://github.com/XavierReyMarquez/w11-Express-NoteTaker"
+      },
+      {
+        "title": "E-Commerce_Back_End_OEM",
+        "category": "mysql, ExpressJS",
+        "image": "imgCommerce",
+        "url": " https://github.com/XavierReyMarquez/E-Commerce-Back-End-OEM--w13",
+        "gitURL": " https://github.com/XavierReyMarquez/E-Commerce-Back-End-OEM--w13"
+      },
+      {
+        "title": "README_GENERATOR",
+        "category": "Node.js",
+        "image": "imgRead",
+        "url": " https://github.com/XavierReyMarquez/W9_README_GENERATOR#tests",
+        "gitURL": " https://github.com/XavierReyMarquez/W9_README_GENERATOR#tests"
+      },
+      {
+        "title": "Employee_Tracker",
+        "category": "mysql12",
+        "image": "imgTracker",
+        "url": " https://github.com/XavierReyMarquez/My_Employee_Tracker_w12",
+        "gitURL": "https://github.com/XavierReyMarquez/My_Employee_Tracker_w12"
+      },
+      {
+        "title": "Team_Profile_Generator",
+        "category": "Node, Jest, Inquirer",
+        "image": "imgTeam",
+        "url": " https://github.com/XavierReyMarquez/w10_Team_Profile_Generator",
+        "gitURL": " https://github.com/XavierReyMarquez/w10_Team_Profile_Generator"
+      }
+    ]
+  }
+}
